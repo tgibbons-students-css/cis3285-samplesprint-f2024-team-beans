@@ -12,7 +12,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         {
             return View();
         }
-        
+
         // User Story 2B: Ensure message content is filtered for appropriateness in the details view (Max Lasitsa)
         // GET: MessageController/Details/5
         public ActionResult Details(int id)
@@ -27,6 +27,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
             return View();
         }
 
+        // User Story 2C: Handle concurrent user creation efficiently (Max Lasitsa)
         // POST: MessageController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -42,12 +43,14 @@ namespace CIS3285_Unit3Sample_2024.Controllers
             }
         }
 
+        // User Story 2C: Ensure editing is efficient for high concurrency (Max Lasitsa)
         // GET: MessageController/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
+        // User Story 2C: Ensure concurrency handling when editing with form data (Max Lasitsa)
         // POST: MessageController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
