@@ -5,6 +5,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
 {
     public class RoomController : Controller
     {
+        // User Story 2B: Implement content filtering for room index view (Max Lasitsa)
         // GET: RoomController
         public ActionResult Index()
         {
@@ -17,6 +18,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
             return View();
         }
 
+        // User Story 2B: Ensure content filtering when creating a room (Max Lasitsa)
         // GET: RoomController/Create
         public ActionResult Create()
         {
