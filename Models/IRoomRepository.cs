@@ -6,4 +6,7 @@
 
         IEnumerable<RoomRecord> GetAllRooms();
     }
+    /// <summary> 
+    /// Developer: Alec Lindberg 
+    /// </summary>
 }
