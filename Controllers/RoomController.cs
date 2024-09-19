@@ -25,6 +25,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
             return View();
         }
 
+        // User Story 2D: Implement logic to enforce room user limits during creation (Max Lasitsa)
         // POST: RoomController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -40,6 +41,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
             }
         }
 
+        // User Story 2D: Ensure user limits are enforced when editing room details (Max Lasitsa)
         // GET: RoomController/Edit/5
         public ActionResult Edit(int id)
         {

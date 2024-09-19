@@ -2,6 +2,7 @@
 {
     public class RoomRecord
     {
+        // User Story 2D: Add userLimit attribute to control the maximum number of users per room (Max Lasitsa)
         public RoomRecord(string name, int roomId)
         {
             Name = name;
