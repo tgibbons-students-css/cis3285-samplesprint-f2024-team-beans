@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Humanizer;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Channels;
 
 namespace CIS3285_Unit3Sample_2024.Controllers
 {
@@ -15,6 +17,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         public ActionResult Details(int id)
         {
             return View();
+            // Changes Sprint 1 -- I want to create room details for identifying rooms -- Alec Lindberg  
         }
 
         // GET: RoomController/Create
@@ -43,6 +46,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         public ActionResult Edit(int id)
         {
             return View();
+            //  Changes Sprint 1 -- I want to create an edit option for editing room informtaion -- Alec Lindberg
         }
 
         // POST: RoomController/Edit/5
@@ -64,6 +68,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         public ActionResult Delete(int id)
         {
             return View();
+            // Changes Sprint 1 -- I want to create a delete option for deleting rooms --Alec Lindberg
         }
 
         // POST: RoomController/Delete/5

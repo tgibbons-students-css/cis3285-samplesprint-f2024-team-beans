@@ -7,6 +7,7 @@
             Name = name;
             RoomId1 = roomId;
         }
+        //  Changes Sprint 1 -- I want to create a room record for storing data to specefic rooms -- Alec Lindberg  
 
         int RoomId;
         public int RoomId1 { get => RoomId; set => RoomId = value; }
