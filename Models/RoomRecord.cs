@@ -5,6 +5,7 @@
         // User Story 2D: Add userLimit attribute to control the maximum number of users per room (Max Lasitsa)
         public RoomRecord(string name, int roomId)
         {
+            // Changes Sprint 1 -- "As a message posting user, I want to create rooms for categorizing conversations." -- Bethany Helwig
             Name = name;
             RoomId1 = roomId;
         }

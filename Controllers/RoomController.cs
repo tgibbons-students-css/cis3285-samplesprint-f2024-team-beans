@@ -15,6 +15,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Details/5
         public ActionResult Details(int id)
         {
+            // Changes Sprint 1 -- "As a message posting user, I want to create rooms for categorizing conversations." -- Bethany Helwig
             return View();
         }
 
@@ -22,6 +23,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Create
         public ActionResult Create()
         {
+            // Changes Sprint 1 -- "As a message posting user, I want to create rooms for categorizing conversations." -- Bethany Helwig
             return View();
         }
 
@@ -45,6 +47,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Edit/5
         public ActionResult Edit(int id)
         {
+            // Changes Sprint 1 -- "As a message posting user, I want to create rooms for categorizing conversations." -- Bethany Helwig
             return View();
         }
 
@@ -66,6 +69,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Delete/5
         public ActionResult Delete(int id)
         {
+            // Changes Sprint 1 -- "As a message posting user, I want to create rooms for categorizing conversations." -- Bethany Helwig
             return View();
         }
 
