@@ -7,7 +7,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
 {
     public class RoomController : Controller
     {
-        // User Story 2B: Implement content filtering for room index view (Max Lasitsa)
+        // User Story 2B: Implement content filtering for room index view (Alec Lindberg)
         // GET: RoomController
         public ActionResult Index()
         {
@@ -19,7 +19,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         {
             // Changes Sprint 1 -- "As a message posting user, I want to create rooms for categorizing conversations." -- Bethany Helwig
             return View();
-            // Changes Sprint 1 -- I want to create room details for identifying rooms -- Alec Lindberg  
+           
         }
 
         // User Story 2B: Ensure content filtering when creating a room (Max Lasitsa)
@@ -28,7 +28,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         {
             // Changes Sprint 1 -- "As a message posting user, I want to create rooms for categorizing conversations." -- Bethany Helwig
             return View();
-            // Changes Sprint 1 -- I want to create rooms for catergorizing convertations -- Alec Lindberg 
+            
         }
 
         // User Story 2D: Implement logic to enforce room user limits during creation (Max Lasitsa)
@@ -53,7 +53,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         {
             // Changes Sprint 1 -- "As a message posting user, I want to create rooms for categorizing conversations." -- Bethany Helwig
             return View();
-            //  Changes Sprint 1 -- I want to create an edit option for editing room informtaion -- Alec Lindberg
+           
         }
 
         // POST: RoomController/Edit/5
@@ -76,7 +76,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         {
             // Changes Sprint 1 -- "As a message posting user, I want to create rooms for categorizing conversations." -- Bethany Helwig
             return View();
-            // Changes Sprint 1 -- I want to create a delete option for deleting rooms --Alec Lindberg
+           
         }
 
         // POST: RoomController/Delete/5
